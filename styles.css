@@ -52,3 +52,16 @@ footer {
   padding: 1em;
   text-align: center;
 }
+
+.galeri {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px; /* Mengurangi lebar maksimum kontainer */
+  margin: 0 auto;
+}
+
+.galeri img {
+  max-width: 100%; /* Membuat gambar responsif agar tidak melebihi lebar parent */
+  height: auto;
+  border-radius: 8px; /* Menambahkan sudut melengkung pada gambar */
+}
